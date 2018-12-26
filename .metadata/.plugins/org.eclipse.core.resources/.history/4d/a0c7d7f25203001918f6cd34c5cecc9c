@@ -1,0 +1,13 @@
+package Tests;
+
+import org.testng.annotations.Test;
+
+public class WeatherTest {
+	
+	@Test
+	public void GetWeatherDetails()
+	{
+		
+	}
+
+}

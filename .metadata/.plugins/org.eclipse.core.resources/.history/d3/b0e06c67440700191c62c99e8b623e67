@@ -1,0 +1,19 @@
+package Tests;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.given;
+
+
+public class Learning {
+
+	@Test
+	public void Test2()
+	{
+		RestAssured.baseURI="https://maps.googleapis.com";
+		given().
+		queryParam("","").		
+	}
+
+}

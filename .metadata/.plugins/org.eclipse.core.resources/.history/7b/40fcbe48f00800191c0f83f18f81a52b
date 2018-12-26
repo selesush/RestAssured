@@ -1,0 +1,12 @@
+package files;
+
+import io.restassured.response.Response;
+
+public class ReusableMethods {
+	
+	public void rawtoXML(Response r)
+	{
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package Tests;
+
+import org.testng.annotations.Test;
+
+public class Learning {
+
+	@Test
+	public void Test2()
+	{
+		
+	}
+
+}

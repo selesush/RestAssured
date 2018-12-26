@@ -1,0 +1,23 @@
+package Tests;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.given;
+
+
+public class ApiTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+	@Test
+	public void GetGoogleMapDetails()
+	{
+		RestAssured.baseURI="https://maps.googleapis.com";
+		given().
+	}
+}

@@ -1,0 +1,12 @@
+package files;
+
+public class payload {
+	
+	public static String getHostData()
+	{
+		String b = 
+		return b;
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package files;
+
+import io.restassured.path.xml.XmlPath;
+import io.restassured.response.Response;
+
+public class ReusableMethods {
+	
+	public static XmlPath rawtoXML(Response r)
+	{
+		String responsedata = r.asString();
+		XmlPath x = new XmlPath(responsedata);
+		return x;
+		
+	}
+
+}
